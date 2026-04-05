@@ -29,6 +29,9 @@ desktop.ini
 # Ignore the docs folder as requested
 docs/
 
+# Ignore sensitive config
+src/main/resources/application.properties
+
 # Logs
 logs/
 *.log

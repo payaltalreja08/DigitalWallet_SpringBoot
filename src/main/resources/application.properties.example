@@ -1,0 +1,15 @@
+# Example Database configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/walletdb
+spring.datasource.username=postgres
+spring.datasource.password=ENTER_YOUR_DB_PASSWORD_HERE
+
+# JPA settings
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# JWT settings
+jwt.secret=CHOOSE_A_SECURE_SECRET_HERE
+jwt.expiration=86400000
+
+# Logging level
+logging.level.com.wallet=DEBUG
